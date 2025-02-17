@@ -101,7 +101,7 @@ button{
     color: #404bbf;
   }
 
-.studio-line::after {
+.nav link studio-line::after {
     background-color: #404bbf;
   }
 
@@ -119,6 +119,9 @@ button{
     color: #404bbf;
 }
 
+.current{
+    color: #404bbf;
+}
 .address{
     font-style: normal;
     padding-top: 24px;
