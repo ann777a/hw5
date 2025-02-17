@@ -628,12 +628,17 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
     opacity: 0;
     pointer-events: none;
 }
 
+.modal-overlay:not(.is-open).modal-overlay{
+    transform:translate(-50%, -50%) scale(1,5);
+}
 .modal-overlay.is-open {
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
 }
 
