@@ -16,8 +16,6 @@ a{
 }
 
 .container{
-    padding-left: auto;
-    padding-right: auto;
     width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
@@ -71,12 +69,10 @@ button{
     letter-spacing: 0.03em;
     color: #2e2f42;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .nav-list{
     display: flex;
-    padding-bottom: 24px;
     gap: 40px;
 }
 
@@ -285,7 +281,6 @@ button{
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0 auto;
-    margin-bottom: 60px;
     width: 264px;
     text-align: left;
 }
@@ -312,7 +307,6 @@ button{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;
 }
 
 
@@ -331,7 +325,6 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
 }
 
 
@@ -340,14 +333,12 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .team-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 8px;
 }
 
 .social-icons{
@@ -465,14 +456,11 @@ button{
     background-color: #2e2f42;
     min-height: 312px;
     padding: 100px 0;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .footer-container {
     display: flex;
-    align-items: baseline;
-    margin: 16px; 
+    aligh-items: basrline;
 }
 
 .footer .items-foot {
@@ -747,7 +735,7 @@ input::placeholder {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: #4D5AE5;
+    fill: #4D;
 }
 
 .comments {
@@ -823,6 +811,6 @@ input::placeholder {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 96px;
+    margin-left: auto;
     border-radius: 4px;
 }
