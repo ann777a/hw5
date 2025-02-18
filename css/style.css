@@ -471,7 +471,8 @@ button{
 
 .footer-container {
     display: flex;
-    align-items: baseline; 
+    align-items: baseline;
+    margin: 16px; 
 }
 
 .footer .items-foot {
