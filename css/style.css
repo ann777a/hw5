@@ -677,6 +677,9 @@ input::placeholder {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+input:focus + svg{
+    fill:#4D5AE5;
+}
 .modal_button:hover {
     background-color: #404bbf;
     border: none;
